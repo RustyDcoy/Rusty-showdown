@@ -19806,4 +19806,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	test: {
+		num: 1026,
+		name: "culodelau",
+		types: ["Grass"],
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 50, atk: 65, def: 45, spa: 85, spd: 65, spe: 95 },
+		abilities: { 0: "Overgrow", H: "Unburden" },
+		heightm: 0.9,
+		weightkg: 21.6,
+		color: "Green",
+		eggGroups: ["Monster", "Dragon"],
+	},
 };
